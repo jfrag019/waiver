@@ -1,7 +1,7 @@
 require 'sinatra'
 require 'rest-client'
 
-get '/tree-permits' do
+get '/waivers' do
 
 today = Date.today
 twoDaysBefore = Date.today-2
