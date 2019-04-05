@@ -4,7 +4,7 @@ require 'rest-client'
 get '/waivers' do
 
 today = Date.today
-twoDaysBefore = Date.today-4
+twoDaysBefore = Date.today-10
 
 today_s = today.strftime("%F")
 twoDaysBefore_s = twoDaysBefore.strftime("%F")
