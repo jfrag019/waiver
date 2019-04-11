@@ -3,7 +3,7 @@ require 'rest-client'
 
 get '/waivers' do
 
-today = Date.today-11
+today = Date.today
 twoDaysBefore = Date.today-10
 
 today_s = today.strftime("%F")
